@@ -1,5 +1,7 @@
 library(lattice)
 library(datasets)
+library(ggplot2) 
+path_to_course <- file.path(find.package("swirl"),"Courses/Exploratory_Data_Analysis/Lattice_Plotting_System")
 
 # For compatibility with 2.2.21
 .get_course_path <- function(){
